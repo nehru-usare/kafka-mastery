@@ -1,0 +1,23 @@
+{
+  "type": "record",
+  "name": "OrderPlacedEvent",
+  "namespace": "com.smartjava.kafka.common",
+  "fields": [
+    {
+      "name": "orderId",
+      "type": "string"
+    },
+    {
+      "name": "customerId",
+      "type": "string"
+    },
+    {
+      "name": "amount",
+      "type": "double"
+    },
+    {
+      "name": "status",
+      "type": "string"
+    }
+  ]
+}
